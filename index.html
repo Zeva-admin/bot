@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>В.К.Л — Помощник Clash of Clans</title>
+  <style>
+    body{margin:0;font-family:'Inter',sans-serif;background:#0f1724;color:#e6eef8}
+    .container{max-width:980px;margin:0 auto;padding:20px}
+    .site-header{text-align:center;padding:40px 0}
+    .logo{font-size:28px;margin-bottom:8px}
+    .tagline{color:#94a3b8;margin-bottom:16px}
+    .cta{display:inline-block;background:#06b6d4;color:#042028;padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:600}
+    .card{background:rgba(11,18,32,0.8);padding:18px;border-radius:12px;margin-bottom:16px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+    .small{padding:14px}
+    .commands code{background:rgba(255,255,255,0.03);padding:4px 8px;border-radius:6px}
+    .links{display:flex;gap:8px;margin-top:10px}
+    .btn{background:#06b6d4;color:#042028;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#94a3b8}
+    .site-footer{text-align:center;padding:18px 0;color:#94a3b8}
+    @media(max-width:880px){.grid{grid-template-columns:1fr}.logo{font-size:22px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">В.К.Л — бот помощник</h1>
+      <p class="tagline">Интерактивный Telegram бот для клана Clash of Clans — следите за войнами, топами, участниками и столицей клана!</p>
+      <a class="cta" href="https://t.me/Bot_by_aboo_bot" target="_blank" rel="noopener">Открыть бота в Telegram</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Команды бота</h2>
+      <p>Используйте команды в чате с ботом:</p>
+      <ul class="commands">
+        <li><code>/info</code> — информация о клане</li>
+        <li><code>/members</code> — список участников (TH, кубки, роль)</li>
+        <li><code>/top</code> — топ игроков по кубкам и донатам</li>
+        <li><code>/war</code> — информация о текущей войне</li>
+        <li><code>/capital</code> — столица клана</li>
+        <li><code>/donations</code> — топ донатеров</li>
+        <li><code>/stats</code> — сводная статистика</li>
+      </ul>
+    </section>
+
+    <section class="grid">
+      <article class="card small">
+        <h3>О боте</h3>
+        <p>Бот написан на Python с использованием <code>python-telegram-bot</code>. Получает актуальные данные через официальное API Clash of Clans, чтобы вы всегда знали состояние клана и его участников.</p>
+      </article>
+
+      <article class="card small">
+        <h3>Интерактивность</h3>
+        <p>Бот умеет показывать текущую войну, топ-игроков, донаты и столицу клана. Добавляйте бота в свои группы и следите за кланом вместе с друзьями!</p>
+      </article>
+
+      <article class="card small">
+        <h3>Поддержка</h3>
+        <p>Если есть вопросы или предложения, пишите разработчику: <a href="https://t.me/G_U_G_A_1" target="_blank" rel="noopener">@G_U_G_A_1</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© В.К.Л — бот для Clash of Clans</small>
+    </div>
+  </footer>
+</body>
+</html>
